@@ -1,3 +1,23 @@
+
+
+
+
 .highlight{
     border: 2px solid royalblue;
+}
+
+.bg-grey {
+    background-color: #d2d6db;
+}
+
+.blue{
+    color: #007bff;
+}
+
+.heleper-text{
+    font-size: 0.8rem;
+}
+
+.border-radius{
+    border-radius:50%;
 }
