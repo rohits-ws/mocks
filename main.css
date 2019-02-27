@@ -13,14 +13,21 @@
     background-color: #d2d6db;
 }
 
-.blue{
-    color: #007bff;
-}
-
 .heleper-text{
     font-size: 0.8rem;
 }
 
 .border-radius{
-    border-radius:50%;
+    border-radius:10px;
+}
+
+.w-100{
+    width: 100%;
+}
+
+/* MEDIA QUERRIES */
+@media (max-width:324.9px){
+    .xs-center{
+        text-align: center;
+    }
 }
