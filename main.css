@@ -1,6 +1,9 @@
 
 
 
+.scroll {
+    overflow-x: scroll;
+}
 
 .highlight{
     border: 2px solid royalblue;
