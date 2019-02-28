@@ -1,8 +1,18 @@
 
-
-
 .scroll {
     overflow-x: scroll;
+}
+
+.scroll div{
+    border-radius:.5rem !important;
+    border: 1px solid #dee2e6 !important;
+    padding: 0.25rem ! important;
+}
+
+.scroll div {
+    border-radius: .5rem !important;
+    border: 1px solid #dee2e6 !important;
+    padding: 0.25rem ! important;
 }
 
 .highlight{
@@ -23,6 +33,10 @@
 
 .w-100{
     width: 100%;
+}
+
+.text-sm{
+    font-size: 0.75rem;
 }
 
 /* MEDIA QUERRIES */
