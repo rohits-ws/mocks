@@ -46,3 +46,13 @@
         text-align: center;
     }
 }
+
+@media(max-width:770px) and (min-width:427px){
+    .md-margin{
+        margin-bottom: .5rem !important;
+        margin-top: .5rem !important;
+    }
+    .md-center{
+        text-align: center !important;
+    }
+}
