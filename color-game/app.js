@@ -1,1 +1,1 @@
-alert("press any key to continue");
+console.log("Connected!");
