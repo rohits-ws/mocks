@@ -5,6 +5,13 @@ body{
 h1{
     color: #fff;
     text-align: center;
+    font-family: 'Lucida Sans',
+    'Lucida Sans Regular',
+    'Lucida Grande',
+    'Lucida Sans Unicode',
+    Geneva,
+    Verdana,
+    sans-serif
 }
 
 span {
@@ -22,5 +29,16 @@ span {
 .container{
     margin: 0 auto;
     max-width: 600px;
+}
+
+.span-wrapper{
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
+}
+
+div span{
+    border: 1px solid white;
+    padding: 0.25rem;
 }
