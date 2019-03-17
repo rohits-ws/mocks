@@ -24,6 +24,7 @@ span {
     margin: 1.66%;
     float: left;
     background: purple;
+    border-radius: 10px;
 }
 
 .container{
