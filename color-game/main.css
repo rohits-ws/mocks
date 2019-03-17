@@ -14,10 +14,6 @@ h1{
     sans-serif
 }
 
-span {
-    color: white;
-}
-
 .square{
     width: 30%;
     padding-bottom:30%; 
@@ -39,7 +35,7 @@ span {
     
 }
 
-div span{
-    border: 1px solid white;
-    padding: 0.25rem;
-}
+    #stripe{
+        background: white;
+        
+    }

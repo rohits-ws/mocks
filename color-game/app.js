@@ -4,6 +4,15 @@ var pickedColor = colors[Math.floor(Math.random() * 6)];
 var colorDisplay = document.getElementById("colorDisplay");
 var msgDisplay = document.querySelector("#message");
 var h1 = document.querySelector("h1");
+var reset = document.querySelector("#reset");
+reset.addEventListener("click", function () {
+    colors = generateRandomColors(6);
+    msgDisplay.textContent = "Click on the sqaures to guess!";
+    h1.style.backgroundColor = "#232323";
+    this.textContent = "NEW COLOR!";
+});
+
+
 colorDisplay.textContent = pickedColor;
 
 for (var i = 0; i < squares.length; i++) {
@@ -19,6 +28,7 @@ for (var i = 0; i < squares.length; i++) {
             msgDisplay.textContent = "Correct!";
             changeColors(clickedColor);
             h1.style.backgroundColor = clickedColor;
+            reset.textContent = "Play Again?";
         } else {
             this.style.backgroundColor = "#232323";
             msgDisplay.textContent = "Try Again!";
