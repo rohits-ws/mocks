@@ -6,6 +6,7 @@ var msgDisplay = document.querySelector("#message");
 var h1 = document.querySelector("h1");
 var reset = document.querySelector("#reset");
 reset.addEventListener("click", function () {
+    // generate all new colors
     colors = generateRandomColors(6);
     msgDisplay.textContent = "Click on the sqaures to guess!";
     h1.style.backgroundColor = "#232323";
@@ -44,7 +45,7 @@ function changeColors(color){
 
 function generateRandomColors(num){
     var arr = [];
-    for (let i = 0; i < num; i++) {
+    for (var i = 0; i < num; i++) {
         arr.push(rgbval());
     }
     return arr;
