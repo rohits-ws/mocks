@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Color - Game</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./main.css">
-    
+    <title>Color Game</title>
+    <link rel="stylesheet" type="text/css" href="colorGame.css">
 </head>
 
 <body>
-    <h1>The <span id="colorDisplay">RGB</span> - Color Guessing Game</h1>
-    <div class="span-wrapper" id="stripe">
-        <button id="reset">NEW COLOR</button>
-        <span id="message">Click on the sqaures to guess!</span>
-        <button id="easy">EASY</button>
-        <button id="hard">HARD</button>
+    <h1>
+        The Great
+        <br>
+        <span id="colorDisplay">RGB</span>
+        <br>
+        Color Game
+    </h1>
+
+    <div id="stripe">
+        <button id="reset">New Colors</button>
+        <span id="message"></span>
+        <button class="mode">Easy</button>
+        <button class="mode selected">Hard</button>
     </div>
-    <div class="container">
+
+    <div id="container">
         <div class="square"></div>
         <div class="square"></div>
         <div class="square"></div>
@@ -25,7 +30,8 @@
         <div class="square"></div>
         <div class="square"></div>
     </div>
-    
-<script src="./app.js"></script>
+
+    <script type="text/javascript" src="colorGame.js"></script>
 </body>
+
 </html>
