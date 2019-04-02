@@ -3,15 +3,17 @@ $(document).ready(() => {
     $('.shoe-details').show();
 
     $('.more-details-button').on('click', event => {
-
+        $(event.currentTarget).closest('.product-details')
     });
 
     $('.shoe-details li').on('click', event => {
         $(event.currentTarget).addClass('active');
+        $(event.currentTarget).siblings().removeClass('active');
+        $(event.currentTarget).closest('.shoe-details').children().removeClass('disabled');
     });
 
     $('.shoe-details li').on('click', event => {
-        $(event.currentTarget).siblings().removeClass('active');
+        ;
     });
 
 
