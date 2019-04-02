@@ -3,7 +3,7 @@ $(document).ready(() => {
     $('.shoe-details').show();
 
     $('.more-details-button').on('click', event => {
-        $(event.currentTarget).closest('.product-details')
+        $(event.currentTarget).closest('.product-details').next('.shoe-details').toggle();
     });
 
     $('.shoe-details li').on('click', event => {
