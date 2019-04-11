@@ -88,7 +88,7 @@ const startRound = () => {
     doorImage1 = closedDoorPath;
     doorImage2 = closedDoorPath;
     doorImage3 = closedDoorPath;
-
+    randomChoreDoorGenerator();
 }
 
 const gameOver = status => {
