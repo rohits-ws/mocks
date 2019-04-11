@@ -77,6 +77,20 @@ doorImage3.onclick = () => {
         doorImage3.src = openDoor3;
 };
 
+startButton.onclick = () => {
+    startRound();
+}
+
+const startRound = () => {
+    numClosedDoors = 3;
+    currentlyPlaying = true;
+    startButton.innerHTML = 'Good luck!';
+    doorImage1 = closedDoorPath;
+    doorImage2 = closedDoorPath;
+    doorImage3 = closedDoorPath;
+
+}
+
 const gameOver = status => {
     if (status === 'win') {
         startButton.innerHTML() = "You win! Play again?";
